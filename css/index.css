@@ -1,0 +1,77 @@
+header{
+    justify-content: space-between; /* alinhameto das estremidades*/ 
+    display: flex; /*Alinhameto dos elementos da nav */
+    background-color: #13151B;
+    border-bottom: 3px solid #2B354A;
+    padding: 10px 20px;
+    
+}
+nav {
+    text-align: right;
+}
+a {
+    display: inline-flex;
+    align-items: center; /*Alinahmeto horizontal do quadrado Menu*/
+    color: #fff;
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+#registro{
+    display: inline-block;
+    color: #fff;
+    background-color: #2B354A;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform 200ms cubic-bezier(0.54, 0.51, 0.24, 2.6); /*transisão de tempo até o scale do houver*/
+    /*box-shadow: 5px 5px 0px #fff; Sombra Do input*/
+}
+
+#registro:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+#login{
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+    transition: transform 200ms cubic-bezier(0.54, 0.51, 0.24, 2.6);
+
+}
+
+#login:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+
+}
+
+#ini{
+    color: #214252;
+
+}
+/*
+span{
+    background-color: brown;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+*/
+.text-1{
+    color: #dcfc04
+}
